@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-
 # basico e introdução do python 
 [
 # a forma de imprimir uma frase no python uma função criada do proprio
@@ -15,7 +13,7 @@
 # else: # caso isso nao seja verdade retornamos isso como se fosse se isso nao e e isso 
 #     print("2 e maior que cinco")
 
-
+print("ola mundo")
 
 #caso as duas condiçoes estejam certas deve se retornar as duas 
 
@@ -29,12 +27,12 @@
 #entendendo variaveis 
 [
 ### Variaveis 
-=======
+
 #[
 # a forma de imprimir uma frase no python uma função criada do proprio
-print("Ola mundo")
+# print("Ola mundo")
 #]
->>>>>>> Stashed changes
+
 
 # As variaveis devem ser criadas de uma forma que possamos dar umn valor a uma entidade 
 
