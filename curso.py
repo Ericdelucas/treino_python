@@ -13,8 +13,6 @@
 # else: # caso isso nao seja verdade retornamos isso como se fosse se isso nao e e isso 
 #     print("2 e maior que cinco")
 
-print("ola mundo")
-
 #caso as duas condiçoes estejam certas deve se retornar as duas 
 
 # if 2 < 5:
@@ -145,5 +143,97 @@ print("ola mundo")
 
 ]
 #_____________________________________________________________________________________________
-# python str 
-#  https://www.w3schools.com/python/python_strings.asp
+# como manipular str 
+[
+    
+#temos algumas coisas a se compreender neste capitulo 
+
+# a primeira e:
+# print("faço tecnico de 'inteligencia artificial'")
+# # observe que podemos colocar '' em qualquer lugar para fazer esta esclamação
+
+# #tambem podemos fazer uma forma de texto com tres """  """ que da para usar vairias linhas 
+
+# print("""
+# oi meu nome e eric
+# faço tecnico de AI
+# meu rob e programar
+# """)
+
+# # tambem podemos fazer assim 
+
+# a='''
+# oi meu nome e eric
+# faço tecnico de AI
+# meu rob e programar
+# '''
+# print(a)
+
+#--------------------------------------------------------------------------------------------
+# tambem podemos criar uma forma de sintax para selecionar as letras que desejamos
+
+# b="meu nome"
+# print(b[2:6])
+# #desta forma ele iraa selecionar as letras que estao entre os indice 2 e 6
+
+# tambem temos o caso que podemos pegar todo que tiver e colocar o limite ate o quinto indice
+# print(b[:5])
+
+#aqui poemos colocar tudo que esta fora deste quadrante seja desconiderado
+# print(b[-5:-2])
+
+#--------------------------------------------------------------------------------------------
+
+# agora vamos aprender a modificar str
+
+# a="     Eric de lúças,12354"
+
+#por exemplo podemos colocar tudo em maiusculo
+# print(a.upper())
+
+#aqui colocamos tudo em minusculo
+# print(a.lower())
+
+#mas se voce proucura remover os espaços em branco use este
+# print(a.strip())
+
+#para modificar o texto de uma letra
+# print(a.replace("E" , "He"))
+
+#separa em uma estancia indicada no texto
+# print(a.split(","))
+
+#--------------------------------------------------------------------------------------------
+
+#podemos tambem fazer uma brincadeira que e modificar um texto de dentro
+
+# a="Eric"
+
+# b=f"ola meu nome e {a}"#o f representa um format que e para modificar 
+
+# print(b)
+
+#tambem podemos fazer desta forma 
+
+# a=input(str("digite seu nome:"))#input e uma função para o usuario escrever
+# b=f"ou meu nome e {a} e estou no ensino medio"
+# print(b)
+
+#--------------------------------------------------------------------------------------------
+
+#tambem temos as formas de modificar textos 
+
+# \'	    Single Quote	
+# \\	    Backslash	
+# \n	    New Line	
+# \r	    Carriage Return	
+# \t	    Tab	
+# \b	    Backspace	
+# \f	    Form Feed	
+# \ooo	    Octal value	
+# \xhh	    Hex value
+]
+#_____________________________________________________________________________________________
+# Boolean Values
+
+
