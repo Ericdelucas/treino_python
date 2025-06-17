@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 # basico e introdução do python 
 [
@@ -28,6 +29,12 @@
 #entendendo variaveis 
 [
 ### Variaveis 
+=======
+#[
+# a forma de imprimir uma frase no python uma função criada do proprio
+print("Ola mundo")
+#]
+>>>>>>> Stashed changes
 
 # As variaveis devem ser criadas de uma forma que possamos dar umn valor a uma entidade 
 
