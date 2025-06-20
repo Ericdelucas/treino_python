@@ -234,6 +234,32 @@
 # \xhh	    Hex value
 ]
 #_____________________________________________________________________________________________
+
 # Boolean Values
-pooii
+
+#variaveis boolear são usadas para estruturas de decição como o if e demonstra vedadeiro ou falso
+
+# print(10>9) # como 10 e maior que 9 ira retornar true que e verdadeiro 
+# print(10<9) # false 
+# print(10 == 9) #false
+
+#--------------------------------------------------------------------------------------------
+
+# e gracias a isso podemos usar as estrutura de decisao
+
+# x=9
+# y=10
+
+# if x>y:
+#     print("primeira opção")
+# else:
+#     print("segunda opção")
+
+#--------------------------------------------------------------------------------------------
+
+#tambem podemos usar isso isso no print para verificar se uma variavel e verdadeira 
+
+print(bool(1))# como e um numero retorna verdadeiro 
+print(bool("eric"))
+
 
