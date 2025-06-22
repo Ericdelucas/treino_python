@@ -293,6 +293,18 @@
 # print(7//3)
 
 #--------------------------------------------------------------------------------------------
+
+
+# isso serve para dizer se uma coisa e verdadeira ou falsa como um contei e nao contei da matematica 
+
+# in 	            Returns True if a sequence with the specified value 
+#                 is present in the object	x in y
+
+# not in	        Returns True if a sequence with the specified value 
+#                 is not present in the object	x not in y
+
+#muito ultiu para listas 
+#--------------------------------------------------------------------------------------------
 #operadores ternais muito uteis 
 
 # =	    x = 5	    x = 5	    
@@ -347,3 +359,159 @@
 #_____________________________________________________________________________________________
 
 # Listas
+[
+#Uma lista e uma forma de guardar informações como um caixa 
+
+# #uma çista pode er criada com um [] 
+# mylist=["eric","anna","arthur"]
+# print(mylist)
+
+#--------------------------------------------------------------------------------------------
+
+#para sabermos quantos tens a dentro de uma lista podemos usar a função len
+# print(len(mylist))
+
+#--------------------------------------------------------------------------------------------
+#e podemos qualque variavel boolean dentro de uma lista 
+
+# mylist2=[2,6,4,8,9]
+# mylist3=[True,False,True]
+
+# print(type(mylist))
+# print(type(mylist2))
+# print(type(mylist3))
+
+#--------------------------------------------------------------------------------------------
+
+# a outra forma de criar uma lista e é desse jeito list()
+#esta forma exige que tenha dois parenteses 
+# banco_de_dados=list(("eric","","isso","chaves"))
+
+# print(banco_de_dados)#e devolve com [] como uma lista 
+
+#--------------------------------------------------------------------------------------------
+
+#e desta forma fazemos uma busca pelo indice
+# mylist=["eric","olhar","isso","chaves","banco","chico","Anna"]
+
+# print(mylist[1])
+# print(mylist[-1])#quando colocamos - ele vai de tras para frente 
+# print(mylist[1:4])#monstre apenas o que esta dentro do intervalo
+
+#--------------------------------------------------------------------------------------------
+
+#tambem podemons fazer uma estrutura no qual faz uma ação caso um item esteja na lista
+
+# newlist=[2,6,4,7,98,5,9,5,9,4,50,5,7,7,6,57,]
+
+# if 50 in newlist:#o in seria para falar se contem ou nao dentro de uma lista
+#     print("nesta lista contem o numero 50")
+# else:
+#     print("esta lista no contem o numero 50")
+
+#--------------------------------------------------------------------------------------------
+#desta forma conseguimos fazer uma alteração substituindo pelo indice
+
+# newlist[1]=100
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+#neste caso adiciona o item empurando o resto para frente 
+
+# newlist.insert(3,"pikachu")
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+
+# Aqui vamos tambem adicionar um elemento a lista no final com a função append
+
+# newlist.append("eric")
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+#e tambem podemos adicionar no final da lista outroa lista e juntalas 
+
+# outros=["eric","anna","yang","savino","chien","stefanni"]
+
+# newlist.extend(outros)
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+#podemos remover um item da lista 
+
+# newlist.remove(50)
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+#outra forma de remover e usando o metodo pop que remove pelo indice 
+
+# newlist.pop(4)#obs se deixar sem o indice ele removera o ultimo elemento 
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+# aqui ele dara Erro ´pois o metodo del deleta a lista em si
+
+# del newlist
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+
+#mas caso queira apenas limpar a lista podemos usar o clear
+
+# newlist.clear()
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+# tambem podemos fazer com que uma esstrutura de repetição corra atraves da lista 
+
+# for x in newlist:
+#     print(x)
+
+#--------------------------------------------------------------------------------------------
+# DESTA FORMA VC MONSTRA AS COISAS DA LISTA e repete com a quantidade de vezes de itens
+# esta repetição se deve o fato por conta do renge
+# for i in range(len(newlist)):
+#     print(newlist[i])
+
+#--------------------------------------------------------------------------------------------
+#com isso voce consegue contar quantos itens a em uma lista com for
+
+# for i in range(len(newlist)):
+#     print(i)
+
+#--------------------------------------------------------------------------------------------
+# desta forma fazemos que a estrutura do while consiga corre a lista como um vetor da lucy 
+
+# i= 0
+# while i < len(newlist):
+#     print(newlist[i])
+#     i = i+1
+
+#--------------------------------------------------------------------------------------------
+# agoram aprendemos a como organizar uma lista e ordenalas seja em ordem cresente ou alfabetica
+
+# newlist.sort()
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+#com a função reverso ligado ou seja = a True ela ira reverte a ordem de organização
+
+# newlist.sort(reverse = True)
+# print(newlist)
+
+#--------------------------------------------------------------------------------------------
+
+# append()	    Adds an element at the end of the list
+# clear()	    Removes all the elements from the list
+# copy()	    Returns a copy of the list
+# count()	    Returns the number of elements with the specified value
+# extend()	    Add the elements of a list (or any iterable), to the end of the current list
+# index()	    Returns the index of the first element with the specified value
+# insert()	    Adds an element at the specified position
+# pop()	        Removes the element at the specified position
+# remove()	    Removes the item with the specified value
+# reverse()	    Reverses the order of the list
+# sort()	    Sorts the list
+
+]
+#_____________________________________________________________________________________________
