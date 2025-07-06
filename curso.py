@@ -415,103 +415,139 @@
 # newlist[1]=100
 # print(newlist)
 
-#--------------------------------------------------------------------------------------------
-#neste caso adiciona o item empurando o resto para frente 
+]
+#_____________________________________________________________________________________________
 
-# newlist.insert(3,"pikachu")
-# print(newlist)
+#Tuplas
+[
+# Uma tubla e uma maneira de armazenar mas ao contrario das listas elas nao podem ser alteradas
+ 
+# eras=("gelo","merdieval","paz","ouro","guerra","era eric")
 
-#--------------------------------------------------------------------------------------------
-
-# Aqui vamos tambem adicionar um elemento a lista no final com a função append
-
-# newlist.append("eric")
-# print(newlist)
-
-#--------------------------------------------------------------------------------------------
-#e tambem podemos adicionar no final da lista outroa lista e juntalas 
-
-# outros=["eric","anna","yang","savino","chien","stefanni"]
-
-# newlist.extend(outros)
-# print(newlist)
-
-#--------------------------------------------------------------------------------------------
-#podemos remover um item da lista 
-
-# newlist.remove(50)
-# print(newlist)
-
-#--------------------------------------------------------------------------------------------
-#outra forma de remover e usando o metodo pop que remove pelo indice 
-
-# newlist.pop(4)#obs se deixar sem o indice ele removera o ultimo elemento 
-# print(newlist)
-
-#--------------------------------------------------------------------------------------------
-# aqui ele dara Erro ´pois o metodo del deleta a lista em si
-
-# del newlist
-# print(newlist)
+# print(eras)
 
 #--------------------------------------------------------------------------------------------
 
-#mas caso queira apenas limpar a lista podemos usar o clear
-
-# newlist.clear()
-# print(newlist)
-
-#--------------------------------------------------------------------------------------------
-# tambem podemos fazer com que uma esstrutura de repetição corra atraves da lista 
-
-# for x in newlist:
-#     print(x)
-
-#--------------------------------------------------------------------------------------------
-# DESTA FORMA VC MONSTRA AS COISAS DA LISTA e repete com a quantidade de vezes de itens
-# esta repetição se deve o fato por conta do renge
-# for i in range(len(newlist)):
-#     print(newlist[i])
-
-#--------------------------------------------------------------------------------------------
-#com isso voce consegue contar quantos itens a em uma lista com for
-
-# for i in range(len(newlist)):
-#     print(i)
-
-#--------------------------------------------------------------------------------------------
-# desta forma fazemos que a estrutura do while consiga corre a lista como um vetor da lucy 
-
-# i= 0
-# while i < len(newlist):
-#     print(newlist[i])
-#     i = i+1
-
-#--------------------------------------------------------------------------------------------
-# agoram aprendemos a como organizar uma lista e ordenalas seja em ordem cresente ou alfabetica
-
-# newlist.sort()
-# print(newlist)
-
-#--------------------------------------------------------------------------------------------
-#com a função reverso ligado ou seja = a True ela ira reverte a ordem de organização
-
-# newlist.sort(reverse = True)
-# print(newlist)
+#para contar quantos itens tem em uma tupla
+# print(len(eras))
 
 #--------------------------------------------------------------------------------------------
 
-# append()	    Adds an element at the end of the list
-# clear()	    Removes all the elements from the list
-# copy()	    Returns a copy of the list
-# count()	    Returns the number of elements with the specified value
-# extend()	    Add the elements of a list (or any iterable), to the end of the current list
-# index()	    Returns the index of the first element with the specified value
-# insert()	    Adds an element at the specified position
-# pop()	        Removes the element at the specified position
-# remove()	    Removes the item with the specified value
-# reverse()	    Reverses the order of the list
-# sort()	    Sorts the list
+#par verificar o se e uma tuple
+# print(type(eras))
+
+#--------------------------------------------------------------------------------------------
+
+# para ver o item da lista com forme  lista
+# print(eras[1])
+
+#--------------------------------------------------------------------------------------------
+
+#para vermos se um iten esta na lista por condição
+
+# if "gelo" in eras:
+#     print("este iten esta na lista")
+
+#--------------------------------------------------------------------------------------------
+
+#esta e uma forma diferente de add um iten em uma tupla com sitema operacional
+
+# y = ("primavera",)
+# eras += y
+# print(eras)
+
+#--------------------------------------------------------------------------------------------
+
+#Outra forma de chamar a tupla e o * serve para pegar o resto 
+
+# (a,b,*c)=eras
+# print(a)
+# print(b)
+# print(c)
+]
+#_____________________________________________________________________________________________
+
+#Dicionario
+[
+#um dicionario e definido por uma variavel e o seu inice
+
+# dic = {
+#     "um"    :1,
+#     "dois"  :2,
+#     "tres"  :3,
+#     "quatro":4,
+#     "quatro":5,
+#     "cinco" :False,
+#     "seis"  :"auto",
+#     "sete"  :["red","blue","black"]
+# }
+
+# print(dic)
+
+#--------------------------------------------------------------------------------------------
+
+#uma forma de encontrar o indice o elemento e desta forma 
+
+# print(dic["um"])
+
+#--------------------------------------------------------------------------------------------
+
+#quando temos dois indices indenticos mas com 2 variaveis ele ira pegar a ultima 
+
+# print(dic["quatro"])
+
+#--------------------------------------------------------------------------------------------
+
+#como saber o tipo de item que estamos lidando 
+
+# print(type(dic))
+
+#--------------------------------------------------------------------------------------------
+
+#para vermos apenas o indices da listas
+
+# x=dic.keys()
+# print(x)
+
+#--------------------------------------------------------------------------------------------
+# como podemos adicionar um item a lista 
+
+# dic["oito"]="8"
+# print(dic)
+
+#--------------------------------------------------------------------------------------------
+
+#para chamarmos apenas os valores do dicionario
+
+# x=dic.values()
+# print(x)
+
+#--------------------------------------------------------------------------------------------
+
+# aqui e como podemos monstrar os itens do dic sendo indice ou valores
+
+# x=dic.items()
+# print(x)
+
+#--------------------------------------------------------------------------------------------
+
+#diferente da lista nao e possivel usar o append 
+
+# dic.update({"nove":9})
+# print(dic)
+
+#--------------------------------------------------------------------------------------------
+
+#assim como o add e diferente da lista o dicionario tambem muda o remover
+
+# dic.pop("dois")
+# print(dic)# ira remover o indice e o valor
+
+#--------------------------------------------------------------------------------------------
+# aqui e removido o ultimo item da lista
+
+# dic.popitem()
+# print(dic)
 
 ]
 #_____________________________________________________________________________________________
