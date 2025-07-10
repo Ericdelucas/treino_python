@@ -553,7 +553,7 @@
 #_____________________________________________________________________________________________
 
 #if else
-
+[
 # condicionadores 
 
 # x == y        e para quando um e ingual a outro
@@ -590,12 +590,38 @@
 
 # E POR FIM temos o else para caso tudo de errado
 
-a=int(input())
-b=int(input())
+# a=int(input())
+# b=int(input())
 
-if a > b:
-    print("1")
-elif a < b:
-    print("2")
-else:
-    print("ia voce me quebra")
+# if a > b:
+#     print("1")
+# elif a < b:
+#     print("2")
+# else:
+#     print("ia voce me quebra")
+
+#--------------------------------------------------------------------------------------------
+
+# tambem temos o and
+
+# a = 200
+# b = 33
+# c = 500
+# if a > b and c > a:
+#   print("Both conditions are True")
+
+#--------------------------------------------------------------------------------------------
+
+# por fim podemos colocar um condição em uma condição
+
+# x = 41
+
+# if x > 10:
+#   print("Above ten,")
+#   if x > 20:
+#     print("and also above 20!")
+#   else:
+#     print("but not above 20.")
+
+]
+#_____________________________________________________________________________________________
