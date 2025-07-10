@@ -551,3 +551,51 @@
 
 ]
 #_____________________________________________________________________________________________
+
+#if else
+
+# condicionadores 
+
+# x == y        e para quando um e ingual a outro
+# x != y        e quando um tem que ser diferente 
+# x < y         e quando y e menor que o x
+# x <= y        e quando y for menor ou igual a x
+# x > y         e quando y e maior que o x
+# x >= y        e quando y for maior ou igual a x
+
+#--------------------------------------------------------------------------------------------
+
+# para colocarmos isso em pratica 
+
+# a = 3
+# b = 5
+# if a < b:
+#     print("e menor que ")
+
+#--------------------------------------------------------------------------------------------
+
+# tambem existe o elif que seria uma outra posibilidade
+
+# a=int(input())
+# b=int(input())
+
+# if a > b:
+#     print("1")
+# elif a < b:
+#     print("2")
+# elif a == b:
+#     print("3")
+
+#--------------------------------------------------------------------------------------------
+
+# E POR FIM temos o else para caso tudo de errado
+
+a=int(input())
+b=int(input())
+
+if a > b:
+    print("1")
+elif a < b:
+    print("2")
+else:
+    print("ia voce me quebra")
