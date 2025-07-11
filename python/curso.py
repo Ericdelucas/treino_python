@@ -626,4 +626,30 @@
 ]
 #_____________________________________________________________________________________________
 
-# match
+#match
+
+# ele serve para nao usar o if e else varias vezes 
+
+# match uii:
+#     case x:
+#         code block
+    
+#--------------------------------------------------------------------------------------------
+
+day= int(input("digite o dia : "))
+
+match day:
+    case 1:
+        print("dia 1")
+    case 2:
+        print("dia 2")
+    case 3:
+        print("dia 3")
+    case 4:
+        print("dia 4")
+    case 5:
+        print("dia 5")
+    case 6:
+        print("dia 6")
+    case 1:
+        print("dia 1")
