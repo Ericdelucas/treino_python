@@ -627,7 +627,7 @@
 #_____________________________________________________________________________________________
 
 #match
-
+[
 # ele serve para nao usar o if e else varias vezes 
 
 # match uii:
@@ -636,20 +636,118 @@
     
 #--------------------------------------------------------------------------------------------
 
-day= int(input("digite o dia : "))
+# exemplo de como usar match 
 
-match day:
-    case 1:
-        print("dia 1")
-    case 2:
-        print("dia 2")
-    case 3:
-        print("dia 3")
-    case 4:
-        print("dia 4")
-    case 5:
-        print("dia 5")
-    case 6:
-        print("dia 6")
-    case 1:
-        print("dia 1")
+# day= int(input("digite o dia : "))
+
+# match day:
+#     case 1:
+#         print("dia 1")
+#     case 2:
+#         print("dia 2")
+#     case 3:
+#         print("dia 3")
+#     case 4:
+#         print("dia 4")
+#     case 5:
+#         print("dia 5")
+#     case 6:
+#         print("dia 6")
+#     case 7:
+#         print("dia 7")
+
+#--------------------------------------------------------------------------------------------
+
+# mas quando nao a uma forma de preve a opção ou erra coloque _ como um else
+
+
+# day= int(input("digite o dia : "))
+
+# match day:
+#     case 1:
+#         print("dia 1")
+#     case 2:
+#         print("dia 2")
+#     case 3:
+#         print("dia 3")
+#     case 4:
+#         print("dia 4")
+#     case 5:
+#         print("dia 5")
+#     case 6:
+#         print("dia 6")
+#     case 7:
+#         print("dia 7")
+#     case _:
+#         print("nao foi previsto")
+
+#--------------------------------------------------------------------------------------------
+
+# mas as vezes e muito chatp escrever o mesmo caso varias vezes
+
+# x=int(input("digite um dia :"))
+
+# match x:
+#     case 1|2|3|4|5 :
+#         print("semanas de descanso")
+#     case 6|7:
+#         print("trabalhe")
+#     case _:
+#         print("ai tu me ferra")
+
+#--------------------------------------------------------------------------------------------
+
+# tambem podemos colocar um processo de verificação a mais com if
+
+# y=int(input("digite outro numero de 1 a 10: "))
+
+# match x:
+#     case 1|2|3|4|5 if y==1|2|3|4|5:
+#         print("os dados estao batendo 1")
+#     case 6|7|8|9|10 if y==6|7|8|9|10:
+#         print("os dados estao batendo 2")
+]
+#_____________________________________________________________________________________________
+
+# while 
+[
+#o while e uma estrutura de repetição criada para fazer um loop em um cod 
+
+# i=1
+# while i<10:
+#     print(i)
+#     i += 1 #operador ternal para somar a cada vez que ele passar por aqui
+
+#--------------------------------------------------------------------------------------------
+
+# mas e claro que as vezes temos que para um loop mesmo a condição sendo verdadeira
+
+#  declaração BREAK
+
+# i=1
+# while i < 10:
+#     print(i)
+#     if i == 8:
+#         break
+#     i += 1
+
+#--------------------------------------------------------------------------------------------
+
+# mas quando acondição nao for mais verdadeira podemos colocar em uma mensagem 
+
+# i = 0
+# while i <= 10:
+#     print(i)
+#     i += 1
+# else:
+#     print("a condição ja nao e mais valida ")
+
+]
+#_____________________________________________________________________________________________
+
+
+
+
+
+
+
