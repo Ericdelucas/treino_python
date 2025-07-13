@@ -767,9 +767,62 @@
 
 # tambem podemos parar um loop com a função break 
 
+# for x in frut:
+#     print(x)
+#     if x == "master":
+#         break
 
+#--------------------------------------------------------------------------------------------
 
+# mas as veses eu preciso de um numero especifico de voltas 
 
+# for x in range(3):
+#     print(" 22 ")
+
+#--------------------------------------------------------------------------------------------
+
+# mas podemos ver que ele vai de 0 5 mas conta ate 4 e podemos corrigir colocando intervalo
+
+# for x in range(1,5):
+#     print(x)
+
+#--------------------------------------------------------------------------------------------
+
+# podemos colocar uma mensagem apos a função nao for verdadeira 
+
+# for x in range(5):
+#     print(x)
+# else:
+#     print("acabou a sequencia")
+
+#--------------------------------------------------------------------------------------------
+
+# podemos colocar um criterio e ainda uma forma de aviso caso a função nao for verdade
+
+# for x in range(10):
+#     if x == 5:
+#         break
+#     print(x)
+# else:
+#     print("mais uma sequencia")
+
+#--------------------------------------------------------------------------------------------
+
+# sendo um loop alinhado ele ira executar o loop acima e o loop embaixo
+
+# frut=["eric","anna"]
+# ass=["er","an","ch","ma","ve"]
+
+# for x in frut:
+#     for x in ass:
+#         print(frut,ass)
+
+#--------------------------------------------------------------------------------------------
+
+# mas as vezes nos temos que evitar um erro para nao interromper o loop usando passe
+
+# for x in [0,1,2,3]:
+#     pass
 
 
 
