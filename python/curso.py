@@ -745,6 +745,39 @@
 ]
 #_____________________________________________________________________________________________
 
+# Laços for 
+
+# Executado como um Loop como um while mas mais facil e controlavel
+
+#podemos usar o for para percorrer uma lista
+
+# frut=["eric","anna","chien","master","venus"]
+# for x in frut:
+#     print(x)
+
+#--------------------------------------------------------------------------------------------
+
+# Loop atraves de corda
+# aqui nos vamos distrinchar uma palavra por letras 
+
+# for x in "eric":
+#     print(x)
+
+#--------------------------------------------------------------------------------------------
+
+# tambem podemos parar um loop com a função break 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
