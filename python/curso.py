@@ -746,7 +746,7 @@
 #_____________________________________________________________________________________________
 
 # Laços for 
-
+[
 # Executado como um Loop como um while mas mais facil e controlavel
 
 #podemos usar o for para percorrer uma lista
@@ -823,6 +823,66 @@
 
 # for x in [0,1,2,3]:
 #     pass
+
+]
+#_____________________________________________________________________________________________
+
+# funçoes 
+
+#uma funcao e muito util para incurtar cod e melhorar cod
+
+# def tri():
+#     print("tri campeao mundial")
+
+# tri()
+
+#--------------------------------------------------------------------------------------------
+
+# tambem podemos fazer uso de tecnicas de soma de caracteres para usos especiais 
+
+# def x(fname):
+#     print(fname + "eric")
+
+# x("email de ")
+# x("numero ")
+# x("tamanho ")
+
+#--------------------------------------------------------------------------------------------
+
+# podemos fazer isso com duas tambem
+
+# def x(tam,tim):
+#     print(tam + " " + tim)
+
+# x("eric","luna")
+
+#--------------------------------------------------------------------------------------------
+
+# return , muito usado como o exemplo a baixo como uma forma de ficar mais otimizado
+
+# def tren(x):
+#     return 5 * x
+
+# print(tren(3))
+
+#--------------------------------------------------------------------------------------------
+
+# tambem podemos usar a funcao passa para nao dar erro no cod
+
+# def x():
+#     pass
+
+#--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 
 
