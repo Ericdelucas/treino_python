@@ -1,7 +1,4 @@
 # basico e introdução do python 
-from cProfile import label
-
-
 [
 # a forma de imprimir uma frase no python uma função criada do proprio
 
@@ -916,9 +913,26 @@ from cProfile import label
 ]
 #_____________________________________________________________________________________________
 
+# Datas
+[
+# se quisermos saber a data de hoje e a hora 
 
+# import datetime
 
+# x= datetime.datetime.now()
+# print(x)
 
+#--------------------------------------------------------------------------------------------
+
+#para monstrar o ano e o mes 
+
+# x=datetime.datetime.now()
+
+# print(x.year)
+# print(x.strftime("%A"))
+
+]
+#_____________________________________________________________________________________________
 
 
 
