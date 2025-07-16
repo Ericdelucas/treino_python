@@ -1,4 +1,7 @@
 # basico e introdução do python 
+from cProfile import label
+
+
 [
 # a forma de imprimir uma frase no python uma função criada do proprio
 
@@ -885,6 +888,35 @@
 #_____________________________________________________________________________________________
 
 # lambda
+[
+#Ele e uma funçao anonima que pode receber qualquer numero de argumentos
+
+# x = lambda a : a + 10
+# print(x(5))
+#mas ele so pode receber uma expresao
+
+#--------------------------------------------------------------------------------------------
+
+#tambem podemos usar ele com duas variaveis nomeadas dentro do lambda
+
+# x = lambda a,b: a*b
+# print(x(2,10))
+
+#--------------------------------------------------------------------------------------------
+
+# tambem podemos fazer uma função para a funçao
+
+# def meu(n):
+#     return lambda a : a*n
+
+# mais= meu(5)#primeiro nomeie o valor de n
+
+# print(mais(3))# agora sim o de a
+
+]
+#_____________________________________________________________________________________________
+
+
 
 
 
