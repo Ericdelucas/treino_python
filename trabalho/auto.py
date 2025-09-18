@@ -6,10 +6,13 @@ import time
 # # ...existing code...
 
 # if keyboard.is_pressed('esc'):  # ou qualquer tecla, como 'q'
+#     exit()
 #     print("Parando o script!")
 #     exit()
 
 # # while True:
+
+
 # time.sleep(3)
 # x=pyautogui.position()
 # print(x)
@@ -143,6 +146,13 @@ time.sleep(0.5)
 pyautogui.click(x=54, y=181)  
 time.sleep(0.5)
 pyautogui.click(x=690, y=413)  
+
+time.sleep(0.8)
+pyautogui.click(x=54, y=181)
+time.sleep(0.5)
+pyautogui.click(x=54, y=181)  
+time.sleep(0.5)
+pyautogui.click(x=690, y=413) 
 
 time.sleep(0.8)
 pyautogui.click(x=54, y=181)
