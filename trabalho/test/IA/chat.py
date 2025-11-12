@@ -16,7 +16,7 @@ base_conhecimento = {
     "boa tarde": ["Boa tarde 🌞 Tudo bem contigo?", "Boa tarde! O que deseja saber hoje?"],
     "boa noite": ["Boa noite 🌙 Como foi o seu dia?", "Boa noite! Está tudo bem por aí?"],
     "tudo bem": ["Tudo ótimo! E com você?", "Estou bem, obrigado por perguntar 😄"],
-    "quem te criou": ["Fui criado por um desenvolvedor que usa Python, Scikit-Learn e IA local com Ollama!"],
+    "quem te criou": ["Fui criado por um desenvolvedor Eric De Lucas com Scikit-Learn e IA local com Ollama!"],
     "qual seu nome": ["Sou o PyBot 🤖, um assistente híbrido com inteligência artificial local!"],
     "o que voce faz": ["Posso responder perguntas simples e também gerar textos, resumos ou ideias com IA local."],
     "adeus": ["Até logo!", "Tchau! Foi bom conversar com você 👋"],
